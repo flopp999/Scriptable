@@ -3,8 +3,6 @@
 I have some example codes to create different widget.
 I have learned this just by copy/paste from other scriptable code.
 
-Lock screen widget 1
+[Lock Screen 1](https://github.com/flopp999/Scriptable/blob/main/js/LockScreen1.js)
+<img src=/images/LockScreen1.jpg>
 
-Lock screen widget 2
-Lock screen widget 2
-Lock screen widget 2
