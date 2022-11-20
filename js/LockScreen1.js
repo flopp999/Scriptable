@@ -12,14 +12,13 @@ let widget = new ListWidget();
 let circle = widget.addStack()
 
 let dayRadiusOffset = 60;
-makeCircle(dayRadiusOffset, Color.black(),Color.white(),70)
+makeCircle(dayRadiusOffset, Color.black(),Color.white(),70) //create circles
 
-drawText("100%", 60, 22)
+drawText("100%", 60, 22) // write text inside the circle. "text", pos x, text size
 let widget1 = circle.addImage(canvas.getImage())
 
-//widget.addAccessoryWidgetBackground = true
 Script.setWidget(widget);
-widget.presentAccessoryCircular()
+widget.presentAccessoryCircular() //Lock screen circle
 Script.complete();
 
 function makeCircle(radiusOffset, bgCircleColor, fgCircleColor, degree, txtColor) {
