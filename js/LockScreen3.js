@@ -24,10 +24,7 @@ Script.complete();
 
 function makeCircle(radiusOffset, bgCircleColor, fgCircleColor, degree, txtColor) {
     let ctr = new Point(canvSize / 2, canvSize / 2)
-    // Outer circle
-    CoordOffset = 0
-    RadiusOffset = 0
-   
+    
     canvas.setFillColor(bgCircleColor);
     for (t = 40; t < 320; t++) {
         rect_x = ctr.x + ((canvRadius) - (radiusOffset)) * sinDeg(t) - (canvWidth) / 2;
@@ -40,8 +37,7 @@ function makeCircle(radiusOffset, bgCircleColor, fgCircleColor, degree, txtColor
         );
         canvas.fillEllipse(rect_r);
     }
-   
-    // Inner circle
+    
     canvas.setFillColor(fgCircleColor);
     for (t = 35; t < 100; t++) {
         rect_x = ctr.x + ((canvRadius+2) - (radiusOffset-2)) * sinDeg(t) - (canvWidth-15) / 2;
