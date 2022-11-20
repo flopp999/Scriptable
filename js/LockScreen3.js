@@ -27,19 +27,6 @@ function makeCircle(radiusOffset, bgCircleColor, fgCircleColor, degree, txtColor
     // Outer circle
     CoordOffset = 0
     RadiusOffset = 0
-    bgx = ctr.x - (canvRadius - radiusOffset);
-    bgy = ctr.y - (canvRadius - radiusOffset);
-    bgd = 2 * (canvRadius - radiusOffset);
-    bgr = new Rect(
-        bgx + CoordOffset,
-        bgy + CoordOffset,
-        bgd,
-        bgd
-    );
-
-    //canvas.setStrokeColor(bgCircleColor);
-    //canvas.setLineWidth(canvWidth);
-    //canvas.strokeEllipse(bgr);
    
     canvas.setFillColor(bgCircleColor);
     for (t = 40; t < 320; t++) {
