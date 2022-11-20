@@ -12,7 +12,7 @@ let widget = new ListWidget();
 let circle = widget.addStack()
 
 let dayRadiusOffset = 60;
-makeCircle(dayRadiusOffset, Color.black(),Color.white(),70) //create circles
+makeCircle(dayRadiusOffset, Color.black(),Color.white(),70) //create circles. Offset???, color for circle, color for small line in circle 
 
 drawText("100%", 60, 22) // write text inside the circle. "text", pos x, text size
 let widget1 = circle.addImage(canvas.getImage())
